@@ -19,8 +19,9 @@
 void run_node(void *const handle,
               volatile bool *const keep_running,
               const struct mixnet_node_config c) {
-
+                
     (void) c;
     (void) handle;
     while(*keep_running) {}
+    // Checking that pushing and pulling is working correctly for this project.
 }
