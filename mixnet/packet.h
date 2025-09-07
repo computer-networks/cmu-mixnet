@@ -31,7 +31,7 @@ extern "C" {
  * Mixnet packet type.
  */
 enum mixnet_packet_type_enum {
-    PACKET_TYPE_STP = 0,
+         = 0,
     PACKET_TYPE_FLOOD,
     PACKET_TYPE_LSA,
     PACKET_TYPE_DATA,
